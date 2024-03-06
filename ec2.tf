@@ -8,5 +8,5 @@ resource "aws_instance" "web" {
 }
 
 locals {
-   instance_type = "m2.medium" 
+   instance_type = "t2.small" 
 }
