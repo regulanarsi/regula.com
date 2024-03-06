@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   ami = "ami-0323c3dd2da7fb37d"
-  instance_type = var.instance_type
+  instance_type = local.instance_type
 }
 
 locals {
